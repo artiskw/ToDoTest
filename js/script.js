@@ -11,12 +11,12 @@ checkboxes.forEach((checkbox) => {
       h3.style.textDecoration = "line-through";
       h3.style.marginBottom = "20px";
       listBottom.classList.add("hidden");
-      upgradeLink.style.display = "none"; // Pievienojiet šo rindiņu, lai paslēptu "upgrade-to-do" pogu
+      upgradeLink.style.display = "none";
     } else {
       h3.style.textDecoration = "none";
       h3.style.marginBottom = "";
       listBottom.classList.remove("hidden");
-      upgradeLink.style.display = "inline-block"; // Pievienojiet šo rindiņu, lai parādītu "upgrade-to-do" pogu
+      upgradeLink.style.display = "inline-block";
     }
 
     const checkboxId = checkbox.getAttribute("id");
